@@ -1,6 +1,11 @@
 # Discord_MCmanager
 
-DiscordBOTでMinecraftサーバの起動-停止を制御するコード。
+UbuntuサーバーのDiscordBOTでMinecraftサーバの起動-停止を制御するコード。
+
+```
+python3 -m pip install -U discord.py
+pip install mcrcon
+```
 
 Discordサーバ内のメッセージに応答してMinecraftサーバはscreen内で実行されます。サーバ内のユーザ人数はRCONで監視されユーザログアウトから2分後に自動的にシャットダウンされます。[DiscordSRV](https://github.com/DiscordSRV/DiscordSRV)などを利用するとロビーサーバ内からのチャットでサーバを起動できるのでおすすめです。
 
