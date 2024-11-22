@@ -6,4 +6,4 @@ Discordサーバ内のメッセージに応答してMinecraftサーバはscreen�
 
 運用例↓↓
 
-<img src="img/構成.png" width="512">
+<img src="img/構成.png" width="800">
